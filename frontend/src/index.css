@@ -1,0 +1,39 @@
+/* More specific button styles to override Bootstrap defaults */
+.btn-primary, 
+.btn-primary.btn, 
+.btn-signin.btn, 
+.btn-signup.btn, 
+.btn-start.btn, 
+.btn-add.btn {
+    background-color: #4A4A4A !important;  /* Apply dark gray color */
+    border-color: #4A4A4A !important;
+    color: white !important;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-weight: 500;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-primary:hover, 
+.btn-signin:hover, 
+.btn-signup:hover, 
+.btn-start:hover, 
+.btn-add:hover {
+    background-color: #333333 !important;  /* Darker color on hover */
+    border-color: #333333 !important;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Override any default Bootstrap outline button styles */
+.btn-outline-light {
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-weight: 500;
+    color: white !important;
+    border-color: #4A4A4A !important;
+}
+
+.btn-outline-light:hover {
+    background-color: #4A4A4A !important;
+    border-color: #4A4A4A !important;
+}
